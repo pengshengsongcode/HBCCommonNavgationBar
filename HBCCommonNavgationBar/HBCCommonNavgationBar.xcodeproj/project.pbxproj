@@ -13,7 +13,6 @@
 		8013DF562133CE0300D53874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8013DF552133CE0300D53874 /* Assets.xcassets */; };
 		8013DF592133CE0300D53874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8013DF572133CE0300D53874 /* LaunchScreen.storyboard */; };
 		8013DF5C2133CE0300D53874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8013DF5B2133CE0300D53874 /* main.m */; };
-		8013DF682133CE6200D53874 /* HBCCommonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8013DF672133CE6200D53874 /* HBCCommonWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		8013DF582133CE0300D53874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8013DF5A2133CE0300D53874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8013DF5B2133CE0300D53874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8013DF662133CE6200D53874 /* HBCCommonWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCCommonWebViewController.h; sourceTree = "<group>"; };
-		8013DF672133CE6200D53874 /* HBCCommonWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCCommonWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +58,6 @@
 		8013DF4B2133CE0100D53874 /* HBCCommonNavgationBar */ = {
 			isa = PBXGroup;
 			children = (
-				8013DF652133CE6200D53874 /* Class */,
 				8013DF4C2133CE0100D53874 /* AppDelegate.h */,
 				8013DF4D2133CE0100D53874 /* AppDelegate.m */,
 				8013DF4F2133CE0100D53874 /* ViewController.h */,
@@ -74,15 +70,6 @@
 			);
 			path = HBCCommonNavgationBar;
 			sourceTree = "<group>";
-		};
-		8013DF652133CE6200D53874 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				8013DF662133CE6200D53874 /* HBCCommonWebViewController.h */,
-				8013DF672133CE6200D53874 /* HBCCommonWebViewController.m */,
-			);
-			path = Class;
-			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -156,7 +143,6 @@
 			files = (
 				8013DF512133CE0100D53874 /* ViewController.m in Sources */,
 				8013DF5C2133CE0300D53874 /* main.m in Sources */,
-				8013DF682133CE6200D53874 /* HBCCommonWebViewController.m in Sources */,
 				8013DF4E2133CE0100D53874 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
