@@ -1,0 +1,16 @@
+PODS:
+  - HBCCommonNavgationBar (1.0.0)
+
+DEPENDENCIES:
+  - HBCCommonNavgationBar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HBCCommonNavgationBar
+
+SPEC CHECKSUMS:
+  HBCCommonNavgationBar: d20fa0a2275b308f4abbdcc622f1281b27009c3e
+
+PODFILE CHECKSUM: 9088df75e53e992f8a347e4d979fed9e87c65388
+
+COCOAPODS: 1.5.3

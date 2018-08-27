@@ -13,9 +13,12 @@
 		8013DF562133CE0300D53874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8013DF552133CE0300D53874 /* Assets.xcassets */; };
 		8013DF592133CE0300D53874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8013DF572133CE0300D53874 /* LaunchScreen.storyboard */; };
 		8013DF5C2133CE0300D53874 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8013DF5B2133CE0300D53874 /* main.m */; };
+		EDA9067AAF0CCA05E06E374C /* libPods-HBCCommonNavgationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 453BE34F66185D1F59D1941E /* libPods-HBCCommonNavgationBar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38ABA67B7DC95E25D69B4A4E /* Pods-HBCCommonNavgationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBCCommonNavgationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-HBCCommonNavgationBar/Pods-HBCCommonNavgationBar.release.xcconfig"; sourceTree = "<group>"; };
+		453BE34F66185D1F59D1941E /* libPods-HBCCommonNavgationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HBCCommonNavgationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8013DF492133CE0100D53874 /* HBCCommonNavgationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBCCommonNavgationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8013DF4C2133CE0100D53874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8013DF4D2133CE0100D53874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		8013DF582133CE0300D53874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8013DF5A2133CE0300D53874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8013DF5B2133CE0300D53874 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89B3E6AC33368C5B829C4096 /* Pods-HBCCommonNavgationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HBCCommonNavgationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HBCCommonNavgationBar/Pods-HBCCommonNavgationBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA9067AAF0CCA05E06E374C /* libPods-HBCCommonNavgationBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CA929AA8B3305A1388CE05E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				453BE34F66185D1F59D1941E /* libPods-HBCCommonNavgationBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8013DF402133CE0100D53874 = {
 			isa = PBXGroup;
 			children = (
 				8013DF4B2133CE0100D53874 /* HBCCommonNavgationBar */,
 				8013DF4A2133CE0100D53874 /* Products */,
+				F2F186EC410028561D04C1AF /* Pods */,
+				4CA929AA8B3305A1388CE05E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +86,15 @@
 			path = HBCCommonNavgationBar;
 			sourceTree = "<group>";
 		};
+		F2F186EC410028561D04C1AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89B3E6AC33368C5B829C4096 /* Pods-HBCCommonNavgationBar.debug.xcconfig */,
+				38ABA67B7DC95E25D69B4A4E /* Pods-HBCCommonNavgationBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8013DF5F2133CE0300D53874 /* Build configuration list for PBXNativeTarget "HBCCommonNavgationBar" */;
 			buildPhases = (
+				801221BFF1808D3B712E96F6 /* [CP] Check Pods Manifest.lock */,
 				8013DF452133CE0100D53874 /* Sources */,
 				8013DF462133CE0100D53874 /* Frameworks */,
 				8013DF472133CE0100D53874 /* Resources */,
@@ -135,6 +160,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		801221BFF1808D3B712E96F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HBCCommonNavgationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8013DF452133CE0100D53874 /* Sources */ = {
@@ -281,6 +327,7 @@
 		};
 		8013DF602133CE0300D53874 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B3E6AC33368C5B829C4096 /* Pods-HBCCommonNavgationBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +345,7 @@
 		};
 		8013DF612133CE0300D53874 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38ABA67B7DC95E25D69B4A4E /* Pods-HBCCommonNavgationBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

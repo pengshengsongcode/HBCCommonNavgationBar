@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F90C7727AAD05FC6F1EFCC8DB53FAE2 /* HBCCommonWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5ECE17F91201E06DF7781E9D58730B /* HBCCommonWebViewController.m */; };
+		301562AD56D5D3E5BBD3D9B55DC04B77 /* Pods-HBCCommonNavgationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C439ED9C8F3D2CB792187FF5372EA /* Pods-HBCCommonNavgationBar-dummy.m */; };
+		726781358E9240F2851BFA739B18C8B4 /* HBCCommonWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FDC739B43C70506A33EF6CCEEADF3B8B /* HBCCommonWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8FF7A7F082514021424851038513C47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		F995E65E3AB5A41186C03C9D960A9D2D /* HBCCommonNavgationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A233108A5F046CA40367490B53BA896 /* HBCCommonNavgationBar-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC53E95C3FF5A8C593615272FEF0A054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26967C47B1E8F99B271D08537B745650;
+			remoteInfo = HBCCommonNavgationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0783B247430F81D307C6EC7866C7DCD7 /* libHBCCommonNavgationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHBCCommonNavgationBar.a; path = libHBCCommonNavgationBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		157AA30CE6E614632E3C65A1E61F0EB0 /* Pods-HBCCommonNavgationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCCommonNavgationBar.debug.xcconfig"; sourceTree = "<group>"; };
+		1A08964CB57F90728BA42D5C7EE8DE43 /* libPods-HBCCommonNavgationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HBCCommonNavgationBar.a"; path = "libPods-HBCCommonNavgationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29ACAAE12C7555D44C2DB3250D18C5F9 /* HBCCommonNavgationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HBCCommonNavgationBar.xcconfig; sourceTree = "<group>"; };
+		3E5ECE17F91201E06DF7781E9D58730B /* HBCCommonWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HBCCommonWebViewController.m; path = Class/HBCCommonWebViewController.m; sourceTree = "<group>"; };
+		45DF2F9021A26EE4B3054DA5B657A5D7 /* Pods-HBCCommonNavgationBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HBCCommonNavgationBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CCD7145129F8B758552F66F43DAA3DB /* HBCCommonNavgationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HBCCommonNavgationBar-prefix.pch"; sourceTree = "<group>"; };
+		6A233108A5F046CA40367490B53BA896 /* HBCCommonNavgationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HBCCommonNavgationBar-dummy.m"; sourceTree = "<group>"; };
+		6F883F69D7D2D0C9ACCF1788A06EAB58 /* Pods-HBCCommonNavgationBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBCCommonNavgationBar-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB2C439ED9C8F3D2CB792187FF5372EA /* Pods-HBCCommonNavgationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HBCCommonNavgationBar-dummy.m"; sourceTree = "<group>"; };
+		B04307ABD7A9C556D8FD8CB47AE16A96 /* Pods-HBCCommonNavgationBar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HBCCommonNavgationBar-resources.sh"; sourceTree = "<group>"; };
+		D51AEC5003D75E5299B2A53D16027A9F /* Pods-HBCCommonNavgationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HBCCommonNavgationBar.release.xcconfig"; sourceTree = "<group>"; };
+		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9B531A6B186D48C0CD22C928C02DC2C /* Pods-HBCCommonNavgationBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HBCCommonNavgationBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDC739B43C70506A33EF6CCEEADF3B8B /* HBCCommonWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HBCCommonWebViewController.h; path = Class/HBCCommonWebViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		724C17121F5039F79E4FCCC58D681562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FF7A7F082514021424851038513C47 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9130DB4BE5B58A9F053280DCE5CEBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F91BFB3C3D39B290D5D93E4E24A5269 /* Pods-HBCCommonNavgationBar */ = {
+			isa = PBXGroup;
+			children = (
+				45DF2F9021A26EE4B3054DA5B657A5D7 /* Pods-HBCCommonNavgationBar-acknowledgements.markdown */,
+				E9B531A6B186D48C0CD22C928C02DC2C /* Pods-HBCCommonNavgationBar-acknowledgements.plist */,
+				AB2C439ED9C8F3D2CB792187FF5372EA /* Pods-HBCCommonNavgationBar-dummy.m */,
+				6F883F69D7D2D0C9ACCF1788A06EAB58 /* Pods-HBCCommonNavgationBar-frameworks.sh */,
+				B04307ABD7A9C556D8FD8CB47AE16A96 /* Pods-HBCCommonNavgationBar-resources.sh */,
+				157AA30CE6E614632E3C65A1E61F0EB0 /* Pods-HBCCommonNavgationBar.debug.xcconfig */,
+				D51AEC5003D75E5299B2A53D16027A9F /* Pods-HBCCommonNavgationBar.release.xcconfig */,
+			);
+			name = "Pods-HBCCommonNavgationBar";
+			path = "Target Support Files/Pods-HBCCommonNavgationBar";
+			sourceTree = "<group>";
+		};
+		4152DD901C001324EF9CB60EEF0C5E7D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F91BFB3C3D39B290D5D93E4E24A5269 /* Pods-HBCCommonNavgationBar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		618F28D75F31BAAD89AC84FCEC16D1B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29ACAAE12C7555D44C2DB3250D18C5F9 /* HBCCommonNavgationBar.xcconfig */,
+				6A233108A5F046CA40367490B53BA896 /* HBCCommonNavgationBar-dummy.m */,
+				4CCD7145129F8B758552F66F43DAA3DB /* HBCCommonNavgationBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HBCCommonNavgationBar";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ABE42E4F18D3C634BC6EF35B2E012CAD /* Pods */,
+				9279DAA65BD7E016CB2F56C4BA2AC1C7 /* Products */,
+				4152DD901C001324EF9CB60EEF0C5E7D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8204906FB7E7822CFB276F10C9E630B6 /* HBCCommonNavgationBar */ = {
+			isa = PBXGroup;
+			children = (
+				FDC739B43C70506A33EF6CCEEADF3B8B /* HBCCommonWebViewController.h */,
+				3E5ECE17F91201E06DF7781E9D58730B /* HBCCommonWebViewController.m */,
+				618F28D75F31BAAD89AC84FCEC16D1B1 /* Support Files */,
+			);
+			name = HBCCommonNavgationBar;
+			path = HBCCommonNavgationBar;
+			sourceTree = "<group>";
+		};
+		9279DAA65BD7E016CB2F56C4BA2AC1C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0783B247430F81D307C6EC7866C7DCD7 /* libHBCCommonNavgationBar.a */,
+				1A08964CB57F90728BA42D5C7EE8DE43 /* libPods-HBCCommonNavgationBar.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE42E4F18D3C634BC6EF35B2E012CAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8204906FB7E7822CFB276F10C9E630B6 /* HBCCommonNavgationBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42B0F17BE87DAE61CED9A355E66DA290 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726781358E9240F2851BFA739B18C8B4 /* HBCCommonWebViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26967C47B1E8F99B271D08537B745650 /* HBCCommonNavgationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 133DF1F1F5F07791A77A0F1D25B030CA /* Build configuration list for PBXNativeTarget "HBCCommonNavgationBar" */;
+			buildPhases = (
+				1C71D411BE0F1ACF90881EAC6A23E570 /* Sources */,
+				724C17121F5039F79E4FCCC58D681562 /* Frameworks */,
+				42B0F17BE87DAE61CED9A355E66DA290 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBCCommonNavgationBar;
+			productName = HBCCommonNavgationBar;
+			productReference = 0783B247430F81D307C6EC7866C7DCD7 /* libHBCCommonNavgationBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D780526159C60AEB7FAEACD05F68712E /* Pods-HBCCommonNavgationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE3DC4D5C2FCCA21A1845838D14EB41 /* Build configuration list for PBXNativeTarget "Pods-HBCCommonNavgationBar" */;
+			buildPhases = (
+				FD2DDB7B0E7AF7C41388317772DA755B /* Sources */,
+				A9130DB4BE5B58A9F053280DCE5CEBD5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746E9EDBE31C2FCA864DD96AC72B889F /* PBXTargetDependency */,
+			);
+			name = "Pods-HBCCommonNavgationBar";
+			productName = "Pods-HBCCommonNavgationBar";
+			productReference = 1A08964CB57F90728BA42D5C7EE8DE43 /* libPods-HBCCommonNavgationBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9279DAA65BD7E016CB2F56C4BA2AC1C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26967C47B1E8F99B271D08537B745650 /* HBCCommonNavgationBar */,
+				D780526159C60AEB7FAEACD05F68712E /* Pods-HBCCommonNavgationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C71D411BE0F1ACF90881EAC6A23E570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F995E65E3AB5A41186C03C9D960A9D2D /* HBCCommonNavgationBar-dummy.m in Sources */,
+				1F90C7727AAD05FC6F1EFCC8DB53FAE2 /* HBCCommonWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD2DDB7B0E7AF7C41388317772DA755B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301562AD56D5D3E5BBD3D9B55DC04B77 /* Pods-HBCCommonNavgationBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		746E9EDBE31C2FCA864DD96AC72B889F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HBCCommonNavgationBar;
+			target = 26967C47B1E8F99B271D08537B745650 /* HBCCommonNavgationBar */;
+			targetProxy = AC53E95C3FF5A8C593615272FEF0A054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6594DA76CABDA645CAAA3E6A48B7B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ACAAE12C7555D44C2DB3250D18C5F9 /* HBCCommonNavgationBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HBCCommonNavgationBar/HBCCommonNavgationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HBCCommonNavgationBar;
+				PRODUCT_NAME = HBCCommonNavgationBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D16C23AFF4BF81D028FCBBFC6860D05F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29ACAAE12C7555D44C2DB3250D18C5F9 /* HBCCommonNavgationBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/HBCCommonNavgationBar/HBCCommonNavgationBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = HBCCommonNavgationBar;
+				PRODUCT_NAME = HBCCommonNavgationBar;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0AFBDCC3D07AD1DEF6ABD42B90CD84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157AA30CE6E614632E3C65A1E61F0EB0 /* Pods-HBCCommonNavgationBar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE4639B827402ABA4E84D3F3B4917C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51AEC5003D75E5299B2A53D16027A9F /* Pods-HBCCommonNavgationBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133DF1F1F5F07791A77A0F1D25B030CA /* Build configuration list for PBXNativeTarget "HBCCommonNavgationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6594DA76CABDA645CAAA3E6A48B7B26 /* Debug */,
+				D16C23AFF4BF81D028FCBBFC6860D05F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE3DC4D5C2FCCA21A1845838D14EB41 /* Build configuration list for PBXNativeTarget "Pods-HBCCommonNavgationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0AFBDCC3D07AD1DEF6ABD42B90CD84C /* Debug */,
+				FE4639B827402ABA4E84D3F3B4917C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
